@@ -8,10 +8,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- Use title if it's in the page YAML frontmatter -->
-    <title>404 Not Found</title>
+    <title>XAMPP howto guides</title>
 
-    
-    
+    <meta name="description" content="XAMPP is an easy to install Apache distribution containing MariaDB, PHP and Perl." />
+    <meta name="keywords" content="xampp, apache, php, perl, mysql, open source distribution" />
 
     <link href="/dashboard/stylesheets/normalize.css" rel="stylesheet" type="text/css" /><link href="/dashboard/stylesheets/all.css" rel="stylesheet" type="text/css" />
     <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/3.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
@@ -24,7 +24,7 @@
 
   </head>
 
-  <body class="x404">
+  <body class="howto">
     <div id="fb-root"></div>
     <script>(function(d, s, id) {
       var js, fjs = d.getElementsByTagName(s)[0];
@@ -51,7 +51,7 @@
           <ul class="right">
               <li class=""><a href="/applications.html">Applications</a></li>
               <li class=""><a href="/dashboard/faq.html">FAQs</a></li>
-              <li class=""><a href="/dashboard/howto.html">HOW-TO Guides</a></li>
+              <li class="active"><a href="/dashboard/howto.html">HOW-TO Guides</a></li>
               <li class=""><a target="_blank" href="/dashboard/phpinfo.php">PHPInfo</a></li>
               <li class=""><a href="/phpmyadmin/">phpMyAdmin</a></li>
           </ul>
@@ -63,24 +63,34 @@
       <div class="hero">
   <div class="row">
     <div class="large-12 columns">
-      <h1>404 <span>Not Found</span></h1>
+      <h1>Windows <span>HOW-TO Guides</span></h1>
     </div>
   </div>
 </div>
 <div class="row">
   <div class="large-12 columns">
-    <h2>The page you were looking for doesn't exist.</h2>
-    <p>Think this is an error? Please <a href="mailto:%20hello@apachefriends.org">let us know</a>.</p>
-    <form action="/dashboard/search.html" method="get">
-    <div class="row">
-      <div class="large-8 small-9 columns">
-        <input type="text" name="q" placeholder="Search..">
-      </div>
-      <div class="large-4 small-3 columns">
-        <input type="submit" class="success button postfix expand" value="Search"/>
-      </div>
-    </div>
-    </form>
+    <h5><a href="/dashboard/docs/backup-restore-mysql.html">Backup and Restore MySQL/MariaDB Databases</a></h5>
+<h5><a href="/dashboard/docs/transfer-files-ftp.html">Configure FTP Access</a></h5>
+<h5><a href="/dashboard/docs/configure-vhosts.html">Configure Virtual Hosts</a></h5>
+<h5><a href="/dashboard/docs/configure-wildcard-subdomains.html">Configure Wildcard-Based Subdomains</a></h5>
+<h5><a href="/dashboard/docs/deploy-git-app.html">Deploy an Application Using Git</a></h5>
+<h5><a href="/dashboard/docs/install-wordpress.html">Get Started Quickly with WordPress</a></h5>
+<h5><a href="/dashboard/docs/reset-mysql-password.html">Reset the MySQL/MariaDB Root Password</a></h5>
+<h5><a href="/dashboard/docs/send-mail.html">Send Mail with PHP</a></h5>
+<h5><a href="/dashboard/docs/use-sqlite.html">Use SQLite with PHP</a></h5>
+<h5><a href="/dashboard/docs/activate-use-xdebug.html">Activate and Use Xdebug</a></h5>
+<h5><a href="/dashboard/docs/create-framework-project-zf1.html">Start a New Zend Framework 1.x Project</a></h5>
+<h5><a href="/dashboard/docs/create-framework-project-zf2.html">Start a New Zend Framework 2.x Project</a></h5>
+<h5><a href="/dashboard/docs/troubleshoot-apache.html">Troubleshoot Apache Startup Problems</a></h5>
+<h5><a href="/dashboard/docs/change-mysql-temp-dir.html">Change the MySQL Temporary Files Directory</a></h5>
+<h5><a href="/dashboard/docs/increase-php-file-upload-limit.html">Increase the PHP File Upload Limit</a></h5>
+<h5><a href="/dashboard/docs/access-phpmyadmin-remotely.html">Enable Remote Access to phpMyAdmin</a></h5>
+<h5><a href="/dashboard/docs/auto-start-xampp.html">Auto-Start XAMPP</a></h5>
+
+    <h5><a href="/dashboard/docs/use-different-php-version.html">Use a Different PHP Version</a></h5>
+<h5><a href="/dashboard/docs/use-php-fcgi.html">Run PHP under FastCGI</a></h5>
+<h5><a href="/dashboard/docs/configure-use-tomcat.html">Configure and Use Apache Tomcat</a></h5>
+
   </div>
 </div>
 
